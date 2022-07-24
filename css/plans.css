@@ -1,0 +1,197 @@
+body {
+    background-color: rgb(230, 225, 225);
+    text-align: center;
+    padding: 5%;
+}
+
+body>div:nth-child(1) {
+    margin-top: 10%;
+    height: 50px;
+    width: 60%;
+    margin: 10% auto
+}
+
+body>div:nth-child(1)>p {
+    font-size: 20px;
+}
+
+body>div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 7%;
+}
+
+body>div:nth-child(2)>div {
+    width: 45%;
+    height: 500px;
+    margin: 2%;
+}
+
+body>div:nth-child(2)>div>p {
+    font-size: 20px;
+}
+
+body>div:nth-child(2)>div:nth-child(1) {
+    text-align: left;
+    background-color: black;
+    color: white;
+    padding: 2% 5%
+}
+
+body>div:nth-child(2)>div:nth-child(2) {
+    background-color: white;
+    text-align: left;
+    padding: 2% 5%;
+}
+
+body>div:nth-child(3) {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    height: 300px;
+    margin-bottom: 10%;
+}
+
+body>div:nth-child(3)>div:nth-child(2) {
+    width: 85%;
+    margin: auto;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+body>div:nth-child(3)>div:nth-child(2)>div {
+    width: 20%;
+}
+
+body>div:nth-child(3)>div:nth-child(1) {
+    width: 81%;
+    margin: auto;
+    padding: 2%;
+}
+
+body>div:nth-child(3)>div:nth-child(3) {
+    background-color: white;
+}
+
+body>div:nth-child(4)>div:nth-child(2) {
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+body>div:nth-child(4)>div:nth-child(2)>div {
+    width: 20%;
+}
+
+#grey_img {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+body>div:nth-child(4)>div:nth-child(1) {
+    font-size: 25px;
+}
+
+body>div:nth-child(6) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+body>div:nth-child(6)>div {
+    margin: 3% 10%;
+}
+
+.top_table {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+
+.top_table>div:nth-child(n) {
+    padding: 2%;
+}
+
+.top_table>div:nth-child(1) {
+    width: 45%;
+    height: 150px;
+}
+
+.top_table>div:nth-child(2) {
+    width: 15%;
+}
+
+.top_table>div:nth-child(3) {
+    width: 15%;
+    background-color: rgb(198, 236, 141);
+}
+
+.top_table>div:nth-child(4) {
+    background-color: rgb(216, 218, 214);
+    width: 15%;
+}
+
+.collapsible {
+    margin: auto;
+    background-color: rgb(236, 227, 227);
+    color: blue;
+    cursor: pointer;
+    padding: 18px;
+    width: 80%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active,
+.collapsible:hover {
+    background-color: rgb(211, 209, 209);
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+.table_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.table_row>div {
+    flex-basis: 50% 19% 19% 19%;
+    border: blue 1px solid;
+}
+
+#bottom_box {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    background-image: url(images.ctfassets.net/zw48pl1isxmc/71oWl5R0uc6XKZICd6n7SN/2e589bbd50c7b476734ddfe601f7054e/SFDC-DnA.png);
+}
+
+#bottom_box>div {
+    padding: 10%;
+    width: 45%;
+    text-align: left;
+}
+
+#header {
+    color: #7d7d7d;
+    font-size: 12px;
+    margin: auto;
+}
